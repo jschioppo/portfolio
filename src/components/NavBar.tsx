@@ -39,7 +39,7 @@ const NavBar = ({ onClickCallback }: NavBarProps) => {
           </button>
 
           <a
-            href="https://github.com/your-repo-url"
+            href="https://github.com/jschioppo/portfolio"
             target="_blank"
             rel="noopener noreferrer"
             className={LINK_CLASS}
