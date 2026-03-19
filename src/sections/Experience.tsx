@@ -11,12 +11,12 @@ const Experience = () => {
         <h2 className="text-5xl font-bold relative inline-block">Experience</h2>
       </div>
 
-      <div className="relative items-center px-32">
-        <div className="absolute left-32 top-0 h-full w-[2px] bg-[#22D3EE]" />
+      <div className="relative items-center px-4 sm:px-6 md:px-16 lg:px-32">
+        {/* Experience bar */}
+        <div className="absolute left-4 sm:left-6 md:left-16 lg:left-32 top-0 h-full w-[2px] bg-[#22D3EE]" />
         {jobs.map((job) => (
           <JobSection {...job} />
         ))}
-        {/* Timeline items go here */}
       </div>
     </section>
   );

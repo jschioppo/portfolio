@@ -13,9 +13,9 @@ const NavBar = ({ onClickCallback }: NavBarProps) => {
       id="header-nav"
     >
       <div className="flex items-center justify-between bg-white/10 backdrop-blur-md border border-white/10 rounded-xl px-6 py-3 text-white ">
-        <div className="font-bold text-xl">Jacob Schioppo</div>
+        <div className="font-bold text-xl mr-2">Jacob Schioppo</div>
 
-        <div className="flex gap-6 text-lg">
+        <div className="flex flex-wrap gap-2 md:gap-6 text-sm md:text-lg">
           <button
             onClick={() => onClickCallback("home")}
             className={LINK_CLASS}
